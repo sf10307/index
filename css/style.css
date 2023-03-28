@@ -1,0 +1,39 @@
+@charset "utf-8";
+A:link { FONT-STYLE: normal; TEXT-DECORATION: none; color: #FF0000;} 
+A:visited { FONT-STYLE: normal; TEXT-DECORATION: none; color:#f5f1f1;} 
+A:active { FONT-STYLE: normal; TEXT-DECORATION: none; color: #FF0000;} 
+A:hover {FONT-STYLE: normal;  TEXT-DECORATION: none; color: #03E331;}
+body {
+  margin: 0; 
+  padding: 0; 
+  font-family: Gotham, Helvetica Neue, Helvetica, Arial,微軟正黑體," sans-serif";
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.both{clear: both;}
+img{max-width: 100%;}
+.carousel-item img{max-width: unset;}
+
+/*以下是自設定*/
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #e18737;
+  --bs-btn-border-color: #d89743;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #a3999c;
+  }
+
+.bg-dark {
+    background-color: #d0d0d0 !important;
+}
+
+
+
+.marketing .col-lg-4 {
+  box-shadow: 10px 11px 50px #574C4C;
+  -webkit-box-shadow: 10px 11px 50px #574C4C;
+  -moz-box-shadow: 10px 11px 50px #574C4C;
+}
